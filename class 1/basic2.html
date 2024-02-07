@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>image insert</title>
+
+</head>
+<body>
+    
+    
+    <div class="picture">
+        <p class="texxt">These are my pictures</p>
+        <img src="pic1.png" alt="pic1" class="pic1">
+<img src="chmistry.jpg" alt="pic2" class="pic2">
+<img src="pic1.png" alt="pic1" class="pic1">
+</div>
+
+<!-- naya container -->
+<div class="container">
+    <div class="boxes">
+        <div class="half"> <p class="divText">Prajwol</p></div>
+        <p class="discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ev</p>
+    </div>
+    <div class="boxes"><div class="half"><p class="divText">Rojan</p> </div>
+    <p class="discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ev</p>
+</div>
+    <div class="boxes"><div class="half"> <p class="divText">Abhi</p></div>
+    <p class="discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ev</p>
+</div>
+    <div class="boxes"><div class="half"> <p class="divText">Sampanna</p></div>
+    <p class="discription">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ev</p>
+</div>
+
+</div>
+    <style>
+
+        .container{
+         background-color: rgb(124, 205, 252);
+         height: 500px;
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+
+        }
+        /*  */
+        .boxes{
+        background-color: rgb(255, 255, 255);
+        width: 200px;
+        height: 200px;
+        margin: 50px;
+        border-radius:25px ;
+        box-shadow: 2.5px 2.5px 4.5px rgba(0, 0, 0, 0.3);
+        
+
+        }
+
+        .half{
+            background-color: palevioletred;
+            height:70px;
+            border-top-right-radius: 18px;
+            border-top-left-radius: 18px;
+        }
+
+        .discription{
+            font-family:sans-serif;
+            font-size: 14px;
+            padding: 5px;
+            text-align: center;
+        }
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+    .picture{
+        width: 100%;
+        height: 400px;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 255, 107);
+}
+
+.texxt{
+font-size: 30px;  
+color: blueviolet;
+text-align: center;
+
+}
+
+.divText{
+    margin: 0px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 26px;
+    padding: 20px;
+    font-family: cursive;
+
+}
+.pic1{
+    height: 40%;
+  width: 20%;
+  margin: 5%;
+  border-radius:18px
+  }
+  .pic2{
+    height: 40%;
+      width: 20%;
+      border-radius:18px;
+      margin: 5%;
+
+  }
+ 
+
+h1{
+  text-align: center;
+  color: brown;
+} 
+  
+.pic2:hover{
+      transform: scale(1.1);
+      transition: 1s;
+  }
+
+
+
+  .pic1:hover{
+      transform: scale(1.1);
+      transition: 1s;
+  }
+
+    </style>
+</body>
+</html>
